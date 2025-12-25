@@ -58,12 +58,36 @@
 <!-- Портфолио -->
 <section>
     <h2>📂 Портфолио</h2>
-    <table>
-        <tr><th>Проект</th><th>Технологии</th><th>Ссылка</th></tr>
-        <tr><td>Кафе "Восточный уют"</td><td>HTML • Node.js • Telegram</td><td><a href="#" class="btn">Демо</a></td></tr>
-        <tr><td>Доставка Бишкек</td><td>HTML5 • CSS • Maps</td><td><a href="#" class="btn">Демо</a></td></tr>
-    </table>
-</section>
+    Нужно просто подставить реальный URL твоего демо‑сайта и поправить разметку таблицы.
+    ​
+
+    Исправленный фрагмент:
+
+    xml
+    <section>
+        <table>
+            <tr>
+                <th>Проект</th>
+                <th>Технологии</th>
+                <th>Ссылка</th>
+            </tr>
+            <tr>
+                <td>Кафе "Восточный уют"</td>
+                <td>HTML • Node.js • Telegram</td>
+                <td><a href="#" class="btn">Демо</a></td>
+            </tr>
+            <tr>
+                <td>Доставка Бишкек</td>
+                <td>HTML5 • CSS • Maps</td>
+                <td>
+                    <a href="https://borypro.github.io/alimov-delivery-demo/"
+                       class="btn" target="_blank">
+                        Демо
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </section>
 
 <!-- Призыв к действию -->
 <section style="text-align: center; background: #1e3a8a; color: white; padding: 40px; border-radius: 10px;">
